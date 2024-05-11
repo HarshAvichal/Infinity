@@ -52,7 +52,7 @@ exports.userDetails = async (req, res) => {
 
         let info = await transporter.sendMail({
             from: `${user.firstName} ${user.lastName} ${user.email}`,
-            to: "avichalharsh014@gmail.com",
+            to: "nevil04@gmail.com",
             subject: "Mail From Client",
             html:`Hi, I am ${user.firstName}, ${user.userMessage}, My Phone Mobile:${user.phone}, My Email Address: ${user.email}`,
         })

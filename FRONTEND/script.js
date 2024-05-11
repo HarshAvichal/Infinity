@@ -71,6 +71,7 @@ document.getElementById('enquiry').addEventListener('submit', async (event) => {
 
 // Gather form data
 const formData = new FormData(event.target);
+console.log(formData);
 const formDataObject = {};
 formData.forEach((value, key) => {
     formDataObject[key] = value;
